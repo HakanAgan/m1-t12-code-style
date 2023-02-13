@@ -38,7 +38,8 @@ public class DepositCalculate
         } else if (action == 2) {
             sumFinalAmountWithPercent = CalculateComplexPercent(amount, 0.06, period);
         }
-            System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + sumFinalAmountWithPercent);
+            System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " +
+                    sumFinalAmountWithPercent); // лучше не вылезать за серую черту - границу, в остальном все супер!
     }
 
 public static void main(String[] args)
